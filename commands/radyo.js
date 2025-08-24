@@ -11,19 +11,19 @@ module.exports = {
     if (!channel) return interaction.reply({ content: "Bir sesli kanala katılmalısınız!", ephemeral: true });
 
     const radioStations = {
-      "seymen": "https://yayin.radyoseymen.com.tr:1070/stream",
-      "kralpop": "https://dygedge.radyotvonline.net/kralpop/playlist.m3u8",
-      "extra": "https://radyoext.80.yayin.com.tr/stream?type=http&nocache=32",
-      "alem": "http://scturkmedya.radyotvonline.com/stream/80/",
-      "slowturk": "https://radyo.duhnet.tv/ak_dtvh_slowturk",
-      "show": "http://46.20.3.229/",
-      "turkiyemfm": "http://turkiyemfm.canliyayinda.com:8032/",
-      "turkuvaz": "https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8",
-      "ankara": "https://radyoankara.ozelip.net/8152/stream",
-      "kralfm": "https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8",
-      "efkar": "https://playerservices.streamtheworld.com/api/livestream-redirect/EFKAR128AAC.aac?/;stream.mp3",
-      "turkfm": "http://turkiyemfm.canliyayinda.com:8032/;",
-      "powerturk": "https://live.powerapp.com.tr/powerturk/abr/playlist.m3u8"
+      "seymen": " ",
+      "kralpop": " ",
+      "extra": " ",
+      "alem": " ",
+      "slowturk": " ",
+      "show": " ",
+      "turkiyemfm": " ",
+      "turkuvaz": " ",
+      "ankara": " ",
+      "kralfm": " ",
+      "efkar": " ",
+      "turkfm": " ",
+      "powerturk": " "
     };
 
     const embed = new EmbedBuilder()
